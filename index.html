@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="rescources/img/Logo/logo-white.png"/>
+  <link rel="stylesheet" href="vendors/css/normalize.css">
+  <link rel="stylesheet" href="vendors/css/grids.css">
+  <link rel="stylesheet" href="vendors/css/animate.css">
+  <link rel="stylesheet" href="rescources/css/style.css">
+  <link rel="stylesheet" href="rescources/css/queries.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <title>Omnifood</title> 
+</head>
+<body>
+  
+
+  <header class="header">
+    <div class="top-header-wrapper">
+
+      <!-- <div class="sticky"> -->
+        <div class="inner-container">
+          <div class="row">
+            
+            <div class="col float-start">
+                <h1 class="logo">
+                <span class="visually__hidden">Omnifood</span>
+                <img class="logo__img" src="rescources/img/Logo/logo-white.png" alt="Omnifood Logo">
+                <img class="logo__img-black" src="rescources/img/Logo/logo.png" alt="Omnifood Logo">
+              </h1>
+            </div>
+            
+            
+            <a class="nav__toggle-mobile js--nav--icon"><ion-icon name="menu" ></ion-icon></a>
+            <div class="col float-end mobile__nav">
+              <nav class="nav">
+                <ul class="nav__menu clearfix">
+                  <li class="nav__item"><a href="#" class="nav__link" onclick="$('#FEATURES').animatescroll({scrollSpeed:2500,easing:'easeInOutQuad', padding: '50'});"><span class="nav__text">Food delivery</span></a></li>
+                  <li class="nav__item"><a href="#" class="nav__link" onclick="$('#MEALS').animatescroll({scrollSpeed:2500,easing:'easeInOutQuad', padding: '60'});"><span class="nav__text">Meals</span></a></li>
+                  <li class="nav__item"><a href="#" class="nav__link" onclick="$('#HOW--WORKS').animatescroll({scrollSpeed:2500,easing:'easeInOutQuad', padding: '60'});"><span class="nav__text">How it works</span></a></li>
+                  <li class="nav__item"><a href="#" class="nav__link" onclick="$('#CITIES').animatescroll({scrollSpeed:2500,easing:'easeInOutQuad', padding: '60'});"><span class="nav__text">Our cities</span></a></li>
+                </ul>
+              </nav>
+            </div>
+
+          </div>
+        </div>
+      <!-- </div> -->
+
+    </div>
+    <div class="banner">
+      <div class="inner-container">
+        <div class="row">
+          <div class="col">
+            <div class="banner__wrapper wow pulse">
+              <h2 class="banner__title">Goodbye junk food.<br>Hello super healthy meals!</h2>
+              <a href="#" class="banner__btn btn-full" onclick="$('#HUNGRY').animatescroll({scrollSpeed:2500,easing:'easeInOutQuad', padding: '55'});">I'm hungry</a>
+              <a href="#" class="banner__btn btn-ghost">Show me more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  
+  <main class="main">
+
+    <section class="features js--section--features" id="FEATURES">
+      <div class="inner-container">
+        <h2 class="section__title">Get food fast <span class="m-dash">&mdash;</span> not fast food</h2>
+        <p class="section__tagline">Hello, we're Omnifood, your new premium food delivery service. We know you are always busy. So let us take care of that, we're really good at it. Try once!</p>
+        
+        <div class="row">
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="feature wow fadeInDown">
+              <ion-icon class="feature__icon" [style.color]="'#454899'" name="restaurant"></ion-icon>
+              <h3 class="feature__title">Up to 365 days/year</h3>
+              <p class="feature__desc">Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style</p>
+            </div>
+
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="feature wow fadeInDown">
+              <ion-icon class="feature__icon" name="stopwatch"></ion-icon>
+              <h3 class="feature__title">Ready in 20 minutes</h3>
+              <p class="feature__desc">You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs to ensure that you're 100% happy.</p>
+            </div>
+
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="feature wow fadeInDown">
+              <ion-icon class="feature__icon" name="nutrition"></ion-icon>
+              <h3 class="feature__title">100% organic</h3>
+              <p class="feature__desc">All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+            </div>
+
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="feature wow fadeInDown">
+              <ion-icon class="feature__icon" name="cart"></ion-icon>
+              <h3 class="feature__title">Order anything</h3>
+              <p class="feature__desc">We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="meals" id="MEALS">
+      <div class="inner-container">
+        <h2 class="section__title">Meals</h2>
+        <p class="section__tagline">See our special meals in Omnifood</p>
+
+        <div class="row">
+          
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInLeft">
+              <img class="meal__img" src="rescources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+            </figure>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInLeft">
+              <img class="meal__img" src="rescources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+            </figure>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInRight">
+              <img class="meal__img" src="rescources/img/3.jpg" alt="Chicken breast steak with vegetables ">
+            </figure>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInRight">
+              <img class="meal__img" src="rescources/img/4.jpg" alt="Autumn pumpkin soup">
+            </figure>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInLeft">
+              <img class="meal__img" src="rescources/img/5.jpg" alt="Paleo beef steak with vegetables">
+            </figure>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInLeft">
+              <img class="meal__img" src="rescources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
+            </figure>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInRight">
+              <img class="meal__img" src="rescources/img/7.jpg" alt="Burger with cheddar and bacon">
+            </figure>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            <figure class="meal__wrapper wow fadeInRight">
+              <img class="meal__img" src="rescources/img/8.jpg" alt="Granola with cherries and strawberries">
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="steps" id="HOW--WORKS">
+      <div class="inner-container">
+        <h2 class="section__title">How it works</h2>
+        <p class="section__tagline">How it works <span class="m-dash">&mdash;</span> Simple as 1, 2, 3</p>
+
+        <div class="row">
+
+          <div class="col float-start w12 wl6 wt6 wd6 ww6">
+            <figure class="mobile__app-wrapper wow shake">
+              <img class="mobile__app-img" src="rescources/img/app-iPhone.png" alt="Omnifood app on Iphone">
+            </figure>
+          </div>
+  
+          <div class="col float-start w12 wl6 wt6 wd6 ww6">
+            <div class="steps__wrapper">
+              
+              <div class="step">
+                <div class="step__number">1</div>
+                <p class="step__desc">Choose the subscription plan that best fits your needs and sign up today.</p>
+              </div>
+  
+              <div class="step">
+                <div class="step__number">2</div>
+                <p class="step__desc">Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+              </div>
+  
+              <div class="step">
+                <div class="step__number">3</div>
+                <p class="step__desc">Enjoy your meal after less than 20 minutes. See you the next time!</p>
+              </div>  
+  
+              <a href="#" class="btn__app">
+                <img class="btn__app-img" src="rescources/img/app-store.jpg" alt="App store logo">
+              </a>
+  
+              <a href="#" class="btn__app">
+                <img class="btn__app-img" src="rescources/img/google-play.jpg" alt="google play logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="cities" id="CITIES">
+      <div class="inner-container">
+        
+        <h2 class="section__title">We're currently in these cities</h2>
+
+        <div class="row">
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="city__wrapper wow fadeInLeft">
+              
+              <img src="rescources/img/lisbon-3.jpg" alt="Lisbon City" class="city__img">
+              
+              <div class="city__content__wrappper">
+                <h3 class="city__title">Lisbon</h3>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="person"></ion-icon>
+                  1600+ happy eaters
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="star"></ion-icon>
+                  60+ top chefs
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="mail"></ion-icon>
+                  <a class="city__feature__link" href="#">@omnifood_lx</a> 
+                </div>
+              </div>    
+            </div>
+          </div>
+              
+          
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="city__wrapper wow fadeInLeft">
+              
+              <img src="rescources/img/san-francisco.jpg" alt="san-francisco City" class="city__img">
+              <div class="city__content__wrappper">
+                <h3 class="city__title">san francisco</h3>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="person"></ion-icon>
+                  san-francisco
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="star"></ion-icon>
+                  160+ top chefs
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="mail"></ion-icon>
+                  <a class="city__feature__link" href="#">@omnifood_sf</a> 
+                </div>
+              </div>  
+            </div>
+          </div>
+              
+          
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="city__wrapper wow fadeInRight">
+              
+              <img src="rescources/img/berlin.jpg" alt="Berlin City" class="city__img">
+              <div class="city__content__wrappper">
+                <h3 class="city__title">Berlin</h3>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="person"></ion-icon>
+                  2300+ happy eaters
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="star"></ion-icon>
+                  110+ top chefs
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="mail"></ion-icon>
+                  <a class="city__feature__link" href="#">@omnifood_berlin</a> 
+                </div>
+              </div>  
+            </div>
+          </div>
+              
+          
+
+          <div class="col float-start w12 wl6 wt6 wd3 ww3">
+            
+            <div class="city__wrapper wow fadeInRight">
+              
+              <img src="rescources/img/london.jpg" alt="London City" class="city__img">
+              <div class="city__content__wrappper">
+                <h3 class="city__title">London</h3>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="person"></ion-icon>
+                  1200+ happy eaters
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="star"></ion-icon>
+                  50+ top chefs
+                </div>
+                
+                <div class="city__feature">
+                  <ion-icon class="city__feature-icon" name="mail"></ion-icon>
+                  <a class="city__feature__link" href="#">@omnifood_london</a> 
+                </div>
+              </div>  
+            </div>
+          </div>
+              
+          
+
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="inner-container">
+        <h2 class="section__title testimonials__title">Our customers can't live without us</h2>
+        
+        <div class="row">
+
+          <div class="col float-start w12 wl6 wt6 wd4 ww4">
+
+            <div class="testimonial__wrapper wow fadeInDown wow slideInDown ">
+              <ion-icon class="testimonial__icon" name="chatbubble"></ion-icon>
+              <blockquote class="testimonial__desc">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+
+              <div class="testimonial__customer">
+                <img src="rescources/img/Customer/customer-1.jpg" alt="Customer image" class="testimonial__customer-img">
+                <div class="testimonial__customer-name">Alberto Duncan</div>
+              </div>
+
+            </div>
+          </div>
+
+          
+          <div class="col float-start w12 wl6 wt6 wd4 ww4">
+            <div class="testimonial__wrapper wow fadeInDown wow slideInDown ">
+              <ion-icon class="testimonial__icon" name="chatbubble"></ion-icon>
+              <blockquote class="testimonial__desc">Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!</blockquote>
+
+              <div class="testimonial__customer">
+                <img src="rescources/img/Customer/customer-2.jpg" alt="Customer image" class="testimonial__customer-img">
+                <div class="testimonial__customer-name">Joana Silva</div>
+              </div>
+
+            </div>
+          </div>
+          
+          <div class="col float-start w12 wl6 wt6 wd4 ww4">
+            <div class="testimonial__wrapper wow fadeInDown wow slideInDown ">
+              <ion-icon class="testimonial__icon" name="chatbubble"></ion-icon>
+              <blockquote class="testimonial__desc">I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!</blockquote>
+
+              <div class="testimonial__customer">
+                <img src="rescources/img/Customer/customer-3.jpg" alt="Customer image" class="testimonial__customer-img">
+                <div class="testimonial__customer-name">Milton Chapman</div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="plans" id="HUNGRY">
+      <div class="inner-container">
+        <h2 class="section__title">Start eating healthy today</h2>
+
+        <div class="row">
+
+          <div class="col float-start w12 wl6 wt6 wd4 ww4">
+            <div class="plan__wrapper wow slideInDown ">
+              <h3 class="plan__title">Premium</h3>
+              <p class="plan__desc">
+                <span class="plan__tagline">Subscription package</span>
+                <span class="plan__Price">$399</span>
+                <span class="plan__label">per month</span>
+                <span class="plan__save">Only 13.30$ per meal</span>
+              </p>
+              <ul class="plan__features">
+                <li class="plan__feature"><a href="#">1 meal every day</a></li>
+                <li class="plan__feature"><a href="#">Order 24/7</a></li>
+                <li class="plan__feature"><a href="#">Access to newest creations</a></li>
+                <li class="plan__feature"><a href="#">Free delivery</a></li>
+              </ul>
+              <a href="#" class="plan__btn">Continue</a>
+            </div>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd4 ww4">
+            <div class="plan__wrapper wow slideInDown  plan__item--popular" data-popular="popular">
+              <h3 class="plan__title">Pro</h3>
+              <p class="plan__desc">
+                <span class="plan__tagline">Subscription package</span>
+                <span class="plan__Price">$19</span>
+                <span class="plan__label">per month</span>
+                <span class="plan__save">Only 14.90$ per meal</span>
+              </p>
+              <ul class="plan__features">
+                <li class="plan__feature"><a href="#">1 meal 10 days/month</a></li>
+                <li class="plan__feature"><a href="#">Order 24/7</a></li>
+                <li class="plan__feature"><a href="#">Access to newest creations</a></li>
+                <li class="plan__feature"><a href="#">Free delivery</a></li>
+              </ul>
+              <a href="#" class="plan__btn">Continue</a>
+            </div>
+          </div>
+
+          <div class="col float-start w12 wl6 wt6 wd4 ww4">
+            <div class="plan__wrapper wow slideInDown ">
+              <h3 class="plan__title">Starter</h3>
+              <p class="plan__desc">
+                <span class="plan__tagline">Subscription package</span>
+                <span class="plan__Price">$900</span>
+                <span class="plan__label">per month</span>
+                <span class="plan__save">19$ per meal</span>
+              </p>
+              <ul class="plan__features">
+                <li class="plan__feature"><a href="#">1 meal</a></li>
+                <li class="plan__feature"><a href="#">Order from 8 am to 12 pm</a></li>
+                <li class="plan__feature plan__feature-exclude"><a href="#">Access to newest creations</a></li>
+                <li class="plan__feature plan__feature-exclude"><a href="#">Free delivery</a></li>
+              </ul>
+              <a href="#" class="plan__btn">Continue</a>
+            </div>
+          </div>
+
+        </div>
+      </div>  
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    
+    <div class="inner-container">
+
+      <div class="section__title">We're happy to hear from you</div>
+      
+      <div class="row">
+        
+        <form action="#" class="contact__form">
+          
+          <div class="inputbox">
+            <input type="text" name="name" id="name"  required>
+            <label  for="name" >Full name</label>
+          </div>
+        
+          <div class="inputbox">
+            <input type="text" name="username" id="username"  required>
+            <label  for="username" >Username</label>
+          </div>
+        
+          <div class="inputbox">
+            <input type="email" name="email" id="email"   >
+            <label  for="email" >Email</label>
+          </div>
+
+          <div class="inputbox">
+            <input type="submit" value="Send it!">
+            
+          </div>
+          
+        </form>
+        
+        
+        <div class="col float-start w12 wl12 wt12 wd12">
+          <ul class="social__media">
+            <li class="social__item wow pulse"><a href="#" class="social__item-link"><ion-icon class="social__item-icon" name="logo-facebook"></ion-icon></a></li>
+            <li class="social__item wow pulse"><a href="#" class="social__item-link"><ion-icon class="social__item-icon" name="logo-twitter"></ion-icon></a></li>
+            <li class="social__item wow pulse"><a href="#" class="social__item-link"><ion-icon class="social__item-icon" name="logo-youtube"></ion-icon></a></li>
+            <li class="social__item wow pulse"><a href="#" class="social__item-link"><ion-icon class="social__item-icon" name="logo-instagram"></ion-icon></a></li>
+            <li class="social__item wow pulse"><a href="#" class="social__item-link"><ion-icon class="social__item-icon" name="logo-skype"></ion-icon></a></li>
+          </ul>
+        </div>
+
+
+        <div class="col float-start w12 wl12 wt12 wd12">
+          <ul class="footer__nav">
+            <li class="footer__nav-item"><a href="#" class="footer__nav__item-link">About us</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav__item-link">Blog</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav__item-link">Press</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav__item-link">iOS App</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav__item-link">Android App</a></li>
+          </ul>  
+        </div>
+        
+        <div class="col float-start w12 wl12 wt12 wd12">
+          <div class="copyright"><h4>Design and development by Mahdi Pourhassan</h4></div>
+        </div>
+
+      </div>
+      
+      
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="vendors/js/animatescroll.min.js"></script>
+  <script src="vendors/js/wow.min.js"></script>
+  <script src="rescources/js/app.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  
+</body>
+</html>
